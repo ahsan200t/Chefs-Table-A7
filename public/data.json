@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "name": "Chicken",
+      "short_description": "A delicious and easy-to-make spicy chicken stir-fry with vegetables.",
+      "ingredients": [
+        "550g chicken breast, sliced",
+        "120ml soy sauce",
+        "200g basil leaves",
+        "400g mushrooms, sliced",
+        "3 cloves garlic, minced",
+        "1 red bell pepper, sliced"
+        
+      ],
+      "preparing_time": "30 min",
+      "calories": "320 calories",
+      "image": "https://i.ibb.co/6Pqq5yT/dolores-preciado-7a-Ad6mk-NE-unsplash.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bolognese",
+      "short_description": "A timeless Italian favorite made with ground beef, tomatoes, and herbs.",
+      "ingredients": [
+        "400g spaghetti",
+        "500g ground beef",
+        "800g canned crushed tomatoes",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "2 tbsp olive oil"
+        
+      ],
+      "preparing_time": "45 min",
+      "calories": "420 calories",
+      "image": "https://i.ibb.co/dGT33FC/istockphoto-1631660573-612x612.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Vegetable",
+      "short_description": "A flavorful vegetarian curry loaded with assorted vegetables and spices.",
+      "ingredients": [
+        "2 potatoes, cubed",
+        "1 carrot, sliced",
+        "1 onion, diced",
+        "1 cup cauliflower florets",
+        "1 cup green peas",
+        "1 cup coconut milk"
+        
+      ],
+      "preparing_time": "40 min",
+      "calories": "280 calories",
+      "image": "https://i.ibb.co/kShdbZh/top-view-tasty-meat-soup-with-potatoes-seasonings-dark-desk.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Grilled",
+      "short_description": "Juicy grilled salmon fillets served with a tangy lemon-herb sauce.",
+      "ingredients": [
+        "4 salmon fillets",
+        "2 lemons",
+        "2 tbsp fresh parsley, chopped",
+        "2 tbsp fresh dill, chopped",
+        "4 tbsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "25 min",
+      "calories": "350 calories",
+      "image": "https://i.ibb.co/zNPYcgm/grilled-fish-close-up-decorated-with-vegetables.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mushroom",
+      "short_description": "Creamy and flavorful risotto made with Arborio rice and mushrooms.",
+      "ingredients": [
+        "300g Arborio rice",
+        "400g mushrooms, sliced",
+        "1 onion, diced",
+        "2 cloves garlic, minced",
+        "1/2 cup dry white wine",
+        "1.5L vegetable broth"
+       
+      ],
+      "preparing_time": "35 min",
+      "calories": "380 calories",
+      "image": "https://i.ibb.co/4TYFN0d/top-view-beans-food-concept.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Salad",
+      "short_description": "A refreshing salad with tomatoes, cucumbers, olives, and feta cheese.",
+      "ingredients": [
+        "2 tomatoes, chopped",
+        "1 cucumber, sliced",
+        "1/2 red onion, thinly sliced",
+        "1/2 cup Kalamata olives",
+        "1 tsp dried oregano",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "15 min",
+      "calories": "250 calories",
+      "image": "https://i.ibb.co/kJxpsr0/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil.jpg"
+    }
+  ]
+  
