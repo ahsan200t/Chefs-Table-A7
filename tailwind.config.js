@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        lexend: ["Lexend", "sans-serif"],
+     fontFamily : {
+        lexend : ["Lexend", "sans-serif"],
       },
     },
   },
