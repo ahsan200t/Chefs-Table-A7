@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const Cart = ({ cart, handleRemove }) => {
+const Cart = ({ cart, handleRemove, handleCooking }) => {
   return (
     <div>
       <div>
@@ -26,7 +26,8 @@ const Cart = ({ cart, handleRemove }) => {
                 <td>{item.name}</td>
                 <td>{item.preparing_time}</td>
                 <td>{item.calories}</td>
-                <button onClick={()=> handleRemove(item.id)} className="p-2 bg-[#0BE58A] rounded-full font-medium">Preparing</button>
+                <button onClick={()=> handleRemove(item.id, handleCooking(item))
+                  } className="p-2 bg-[#0BE58A] rounded-full font-medium">Preparing</button>
                
               </tr>
               

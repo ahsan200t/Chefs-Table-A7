@@ -5,7 +5,7 @@ const Navbar = () => {
   <div className="navbar-start text-3xl font-bold font-lexend">
     <h1>Recipe Calories</h1>
   </div>
-  <div className="navbar-center gap-6 text-[#150B2BB3] font-lexend">
+  <div className="lg:navbar-center gap-6 text-[#150B2BB3] font-lexend">
     <a href="">Home</a>
     <a href="">Recipes</a>
     <a href="">About</a>

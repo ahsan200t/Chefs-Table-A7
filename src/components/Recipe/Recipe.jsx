@@ -50,7 +50,7 @@ const Recipe = ({ recipe, handleAddToCart }) => {
                   />
                 </svg>
               </p>
-              <p>{preparing_time}</p>
+              <p>{preparing_time} min</p>
             </div>
             <div className="flex gap-2">
               <p>
@@ -74,7 +74,7 @@ const Recipe = ({ recipe, handleAddToCart }) => {
                   />
                 </svg>
               </p>
-              <p>{calories}</p>
+              <p>{calories} Calories</p>
             </div>
           </div>
           <div className="card-actions justify-start">
