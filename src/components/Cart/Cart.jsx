@@ -21,12 +21,12 @@ const Cart = ({ cart, handleRemove }) => {
          <div>
          <div>
           {cart.map((item, index) => (
-              <tr key={item.id} className="flex justify-around items-center space-y-2">
+              <tr key={item.id} className="flex justify-around items-center space-y-2 bg-gray-200 p-3">
                 <p>{index+1}</p>
                 <td>{item.name}</td>
                 <td>{item.preparing_time}</td>
                 <td>{item.calories}</td>
-                <button onClick={()=> handleRemove(item.id)} className="p-2 bg-[#0BE58A] rounded-full font-medium">Remove</button>
+                <button onClick={()=> handleRemove(item.id)} className="p-2 bg-[#0BE58A] rounded-full font-medium">Preparing</button>
                
               </tr>
               

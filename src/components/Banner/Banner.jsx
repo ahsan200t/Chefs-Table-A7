@@ -6,7 +6,7 @@ const Banner = () => {
             <p className="text-white w-[900px] mx-auto ">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
             <div className="space-x-8">
                 <button className="bg-[#0BE58A] p-3 rounded-full text-xl font-semibold">Explore Now</button>
-                <button className="btn btn-outline text-white text-xl font-semibold ">Our Facebook</button>
+                <button className="btn btn-outline text-white text-xl font-semibold ">Our Feedback</button>
             </div>
             </div>
         </div>
