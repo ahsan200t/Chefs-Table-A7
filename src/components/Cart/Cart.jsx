@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const Cart = ({ cart }) => {
+const Cart = ({ cart, handleRemove }) => {
   return (
     <div>
       <div>
@@ -20,11 +20,13 @@ const Cart = ({ cart }) => {
            
          <div>
          <div>
-          {cart.map(item => (
-              <tr key={item.id} className="flex justify-around">
+          {cart.map((item, index) => (
+              <tr key={item.id} className="flex justify-around items-center space-y-2">
+                <p>{index+1}</p>
                 <td>{item.name}</td>
                 <td>{item.preparing_time}</td>
                 <td>{item.calories}</td>
+                <button onClick={()=> handleRemove(item.id)} className="p-2 bg-[#0BE58A] rounded-full font-medium">Remove</button>
                
               </tr>
               
